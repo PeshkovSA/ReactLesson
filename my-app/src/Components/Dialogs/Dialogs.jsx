@@ -8,6 +8,7 @@ const DialogItem = (props) => {
         <div className={s.dialog + ' ' + s.active}>
             <a href={'/dialogs/' + props.id}>{props.name}</a>
         </div>
+        <div></div>
     )
 }
 
